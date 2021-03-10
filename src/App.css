@@ -1,0 +1,51 @@
+
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header{
+  background-color: rgb(222, 224, 217);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.primera{
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: rgb(189, 159, 218);
+  padding: 50px;
+}
+
+.bodyint{
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+button{
+  color: white;
+  background-color:rgb(39, 7, 82);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+h1{
+  color:rgb(39, 7, 82);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
